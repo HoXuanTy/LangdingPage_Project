@@ -1,0 +1,79 @@
+
+
+
+
+
+.Services {
+    margin-top: 160px;
+    margin-bottom: 160px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Service_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    text-align: center;
+    
+}
+.Service_top-header{
+    width: 470px;
+}
+
+.Services_top-Title{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.Service_wapper_card{
+    display: flex;
+    gap: 22px;
+}
+
+.Card{
+    text-align: center;
+}
+
+.Service_card {
+    width: 370px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0px 20px 70px 0px rgba(18, 17, 22, 0.05);
+
+}
+
+.Card > img {
+    padding: 40px;
+}
+
+.Service_Text{
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(96, 93, 108, 1);
+}
+
+.Service_Name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.Service_Text-3{
+   -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
+   padding: 20px;
+   color: rgba(96, 93, 108, 1);
+}
