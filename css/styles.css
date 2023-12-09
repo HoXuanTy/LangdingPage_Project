@@ -5,8 +5,6 @@
 
 .Services {
     margin-top: 160px;
-    margin-bottom: 160px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,9 +24,10 @@
     width: 470px;
 }
 
-.Services_top-Title{
+.Title{
     font-size: 60px;
     font-weight: 600;
+    line-height: 70px;
 }
 
 
@@ -51,6 +50,7 @@
     background-color: #FFFFFF;
     text-align: center;
     box-shadow: 0px 20px 70px 0px rgba(18, 17, 22, 0.05);
+    cursor: pointer;
 
 }
 
@@ -76,4 +76,78 @@
    -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
    padding: 20px;
    color: rgba(96, 93, 108, 1);
+}
+
+.Business{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 20px 0px;
+}
+.Business_Right{
+    margin-left: 132px;
+}
+
+.Business_Right-Text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(96, 93, 108, 1);
+    padding-bottom: 6px;
+    margin-top: 16px;
+}
+
+.Business_Right-Value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.circle-1{
+    width: 58px;
+    height: 58px;
+    background-color: rgba(255, 198, 49, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    
+}
+.circle-2{
+    width: 58px;
+    height: 58px;
+    background-color:rgba(255, 121, 78, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    
+}
+.circle-3{
+    width: 58px;
+    height: 58px;
+    background-color: rgba(64, 91, 236, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    
+}
+
+.Business_Right-Value >p {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 18px;
+    padding-right: 18px;
+    line-height: 30px;
 }
