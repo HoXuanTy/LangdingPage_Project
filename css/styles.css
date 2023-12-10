@@ -1,30 +1,26 @@
-
-
-
-
-
 .Services {
     margin-top: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.Service_top{
+.Service_top {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-bottom: 70px;
     text-align: center;
-    
+
 }
-.Service_top-header{
+
+.Service_top-header {
     width: 470px;
 }
 
-.Title{
+.Title {
     font-size: 60px;
     font-weight: 600;
     line-height: 70px;
@@ -35,12 +31,12 @@
 
 
 
-.Service_wapper_card{
+.Service_wapper_card {
     display: flex;
     gap: 22px;
 }
 
-.Card{
+.Card {
     text-align: center;
 }
 
@@ -54,11 +50,11 @@
 
 }
 
-.Card > img {
+.Card>img {
     padding: 40px;
 }
 
-.Service_Text{
+.Service_Text {
     font-size: 16px;
     padding: 20px;
     font-weight: 400;
@@ -72,19 +68,22 @@
     line-height: 34px;
 }
 
-.Service_Text-3{
-   -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
-   padding: 20px;
-   color: rgba(96, 93, 108, 1);
+.Service_Text-3 {
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
+    padding: 20px;
+    color: rgba(96, 93, 108, 1);
 }
 
-.Business{
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+.Business {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 160px 20px 0px;
 }
-.Business_Right{
+
+.Business_Right {
     margin-left: 132px;
 }
 
@@ -104,7 +103,7 @@
     padding-top: 32px;
 }
 
-.circle-1{
+.circle-1 {
     width: 58px;
     height: 58px;
     background-color: rgba(255, 198, 49, 1);
@@ -115,12 +114,13 @@
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
-    
+
 }
-.circle-2{
+
+.circle-2 {
     width: 58px;
     height: 58px;
-    background-color:rgba(255, 121, 78, 1);
+    background-color: rgba(255, 121, 78, 1);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -128,9 +128,10 @@
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
-    
+
 }
-.circle-3{
+
+.circle-3 {
     width: 58px;
     height: 58px;
     background-color: rgba(64, 91, 236, 1);
@@ -141,13 +142,120 @@
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
-    
+
 }
 
-.Business_Right-Value >p {
+.Business_Right-Value>p {
     font-size: 18px;
     font-weight: 600;
     padding-left: 18px;
     padding-right: 18px;
     line-height: 30px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+.Testimonial {
+    display: flex;
+    padding: 160px 20px 160px;
+}
+
+.Testimonial_card {
+    width: 370px;
+    height: 272px;
+    border: 1px solid #E8E7EC;
+    box-shadow: 0px 20px 70px 0px rgba(18, 17, 22, 0.07);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.Testimonial_wapper-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.Testimonial_card-1 {
+    padding: 30px;
+}
+
+.Testimonial_card-1-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Testimonial_card-1-avarta {
+    width: 54px;
+    height: 54px;
+}
+
+.Testimonial_card-inf {
+    padding-right: 30%;
+}
+
+.Testimonial_card-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(18, 17, 22, 1);
+}
+
+.Testimonial_card-position {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(96, 93, 108, 1);
+}
+
+.Testimonial_round {
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 251, 239, 1);
+    border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.Testimonial_Text {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(96, 93, 108, 1);
+}
+
+
+.Testimonial_right{
+    padding-left: 30px;
+}
+.Testimonial_title {
+    font-size: 40px;
+    font-weight: 600px;
+    line-height: 50px;
+    color: rgba(18, 17, 22, 1);
+    position: relative;
+   
+}
+
+.underline{
+    cursor:pointer;
+    height: 2px;
+    width: 22px;
+    margin: 0 2px;
+    background-color: rgba(18, 17, 22, 1);
+    border-radius: 1px;
+    display: inline-block;
+}
+
+.keep-color {
+    background-color: rgba(117, 87, 255, 1);
+}
+
+.underline:hover{
+    background-color: rgba(117, 87, 255, 1);
 }
