@@ -15,7 +15,14 @@
     text-align: center;
 
 }
-
+.Services_top-Text {
+    color: #605D6C;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
 .Service_top-header {
     width: 470px;
 }

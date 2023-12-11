@@ -1,9 +1,9 @@
-.banner {
+.common-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 100px 10%;
+    padding: 100px 10% 0px 10%;
     background-color: #FFFBEF;
     height: 450px;
     position: relative;
@@ -11,26 +11,30 @@
     left: 50%;
     transform: translateX(-50%);
 }
-
-.banner-left{
-    margin:0px 5%;
-    padding-right: 30px;
+.save-more {
+    background-color: #FFF;
 }
-.banner-right{
-    margin-right: 2%;
-}
-.banner-title {
+.common-section-title {
     font-size: 70px;
     font-weight: 600;
-    line-height: 80px;
     color: #121116;
+    width: 80%;
 }
+.save-more .common-section-title {
+    font-size: 60px;
+    width: 70%;
 
-.banner-content {
+}
+.common-section-content {
     font-size: 18px;
     color: #605D6C;
+    margin-top: 10px;
+    width: 80%;
 }
 
+.save-more .common-section-content {
+    width: 65%;
+}
 .btn-get-started {
     background-color: #7557FF;
     color: #FFF;
