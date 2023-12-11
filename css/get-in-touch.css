@@ -30,11 +30,12 @@
     display: flex;
     flex-direction: column;
     padding: 40px 110px 40px 40px;
+    margin: 0px 110px 0px 0px;
 }
 
 .get-touch-right form input {
     border-bottom: 2px solid #D7D7D7; 
-    padding: 30px 475px 8px 0px;
+    padding: 30px 350px 8px 0px;
     margin: 20px;
 }
 .get-touch-right form input::placeholder {
