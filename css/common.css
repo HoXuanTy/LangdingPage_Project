@@ -4,7 +4,9 @@
     padding: 100px 10%;
     background-color: #FFFBEF;
 }
-
+.save-more {
+    background-color: #FFF;
+}
 .common-section-title {
     font-size: 70px;
     font-weight: 600;
