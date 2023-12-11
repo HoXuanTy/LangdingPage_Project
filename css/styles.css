@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 160px 20px 0px;
+    padding: 160px 10% 0px 10%;
 }
 
 .Business_Right {
@@ -163,7 +163,7 @@
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 .Testimonial {
     display: flex;
-    padding: 0px 20px 160px;
+    padding: 50px 10% 160px 10%;
 }
 
 .Testimonial_card {

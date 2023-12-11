@@ -1,9 +1,10 @@
 .get-touch-section {
     display: flex;
     flex-direction: row;
+    margin: 0px 10%;
     padding: 100px 0px;
     background-color: #FFF;
-    flex: 1fr 2fr;
+    
 }
 .get-touch-left .title {
     color: #121116;

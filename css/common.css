@@ -1,15 +1,12 @@
 .common-section {
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 100px 10% 130px 10%;
+    padding: 100px 10% 100px 10%;
     background-color: #FFFBEF;
-    height: 500px;
-    position: relative;
-    width: 83vw;
-    left: 50%;
-    transform: translateX(-50%);
+   
 }
 .save-more {
     background-color: #FFF;
@@ -18,7 +15,7 @@
     font-size: 70px;
     font-weight: 600;
     color: #121116;
-    width: 80%;
+    width: 90%;
 }
 .save-more .common-section-title {
     font-size: 60px;
