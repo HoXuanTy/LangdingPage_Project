@@ -1,7 +1,6 @@
 .subscribe-section {
     display: flex;
     flex-direction: row;
-    margin: 0px 10%;
     padding: 24px 5%;
     background-color: #7557FF;
     border-radius: 24px;

@@ -3,27 +3,18 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 12%;
+    padding: 40px 12%;
     background-color: #FFFBEF;
 }
 
-header .logo a {
+.logo a {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: #121116;
 }
 
-header .logo a span {
-    color: #7557FF;
-}
 
-nav a {
-    margin: 20px;
-    text-decoration: none;
-    size: 18px;
-    color: #605D6C;
-}
 
 
 .header-btn .btn-sign-in {

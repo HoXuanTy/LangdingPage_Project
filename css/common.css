@@ -3,14 +3,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 100px 10%;
+    padding: 100px 10% 0px 10%;
+    background-color: #FFFBEF;
     height: 450px;
     position: relative;
     width: 83vw;
     left: 50%;
     transform: translateX(-50%);
 }
-
+.save-more {
+    background-color: #FFF;
+}
 .common-section-title {
     font-size: 70px;
     font-weight: 600;

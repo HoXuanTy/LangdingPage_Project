@@ -14,10 +14,30 @@ main {
         margin-left: 10%;
         margin-right: 10%;
     }
+body {
+    background-color: #fff;
+}
 
 button {
     font-size: 16px;
     font-weight: 600;
     padding: 8px 24px;
     border-radius: 4px;
+}
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #121116;
+}
+
+.logo a span {
+    color: #7557FF;
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    size: 18px;
+    color: #605D6C;
 }
