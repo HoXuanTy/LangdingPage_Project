@@ -3,7 +3,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 10%;
+    padding: 40px 12%;
     background-color: #FFFBEF;
 }
 

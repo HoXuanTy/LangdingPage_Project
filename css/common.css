@@ -1,8 +1,15 @@
 .common-section {
     display: flex;
     flex-direction: row;
-    padding: 100px 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10% 0px 10%;
     background-color: #FFFBEF;
+    height: 450px;
+    position: relative;
+    width: 83vw;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .save-more {
     background-color: #FFF;

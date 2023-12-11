@@ -1,7 +1,7 @@
 .get-touch-section {
     display: flex;
     flex-direction: row;
-    padding: 100px 10%;
+    padding: 100px 0px;
     background-color: #FFF;
     flex: 1fr 2fr;
 }
