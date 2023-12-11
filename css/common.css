@@ -1,22 +1,31 @@
-.banner {
+.common-section {
     display: flex;
     flex-direction: row;
     padding: 100px 10%;
     background-color: #FFFBEF;
 }
 
-.banner-title {
+.common-section-title {
     font-size: 70px;
     font-weight: 600;
-    line-height: 80px;
     color: #121116;
+    width: 80%;
 }
+.save-more .common-section-title {
+    font-size: 60px;
+    width: 70%;
 
-.banner-content {
+}
+.common-section-content {
     font-size: 18px;
     color: #605D6C;
+    margin-top: 10px;
+    width: 80%;
 }
 
+.save-more .common-section-content {
+    width: 65%;
+}
 .btn-get-started {
     background-color: #7557FF;
     color: #FFF;
